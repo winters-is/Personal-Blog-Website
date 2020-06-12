@@ -1,0 +1,66 @@
+/* Main Content Style */
+.flex-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Article Card Styles */
+/* The whole card is clickable so styling consideration to hover and click(active) is needed */
+.article-card {
+  background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 2px,
+    #fff 2px,
+    rgb(240, 240, 240) 4px
+  );
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  border-radius: 5px;
+  height: 100%;
+  width: 50%;
+  margin: 1.2% 0 1.2% 0;
+  padding: 1.2%;
+  box-shadow: 8px 10px #3e363f;
+  cursor: pointer;
+  color: inherit;
+}
+.article-card:hover {
+  scale: 1.05;
+}
+.article-card:active {
+  scale: 1;
+}
+.article-title {
+  grid-area: 1 / 1 / 1 / 3;
+  width: 100%;
+}
+.article-body {
+  grid-area: 2 / 1 / 3 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1%;
+  line-height: 1.5em;
+}
+.article-body p {
+    margin: 1.8%;
+}
+.article-img {
+  grid-area: 1 / 3 / 3 / 4;
+  display: flex;
+  flex-direction: column;
+}
+.article-img figcaption {
+  text-align: center;
+  color: #fff;
+  background-color: #3e363f;
+  font-style: italic;
+  padding: 1%;
+  margin: -0.1%;
+}
+.article-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
