@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/efe4c1e4ed.js" crossorigin="anonymous"></script>
     <title>Blog - Home Page</title>
 </head>
 <body>
     <div class="container">
-        <nav class="header">
-            <div class="flex-header">
-                <div class="flex-header-box">
-                    <img src="img/logo-11.svg" alt="Blog website logo" />
-                </div>
-                <div class="flex-header-box">
+        <div class="header">
+            <nav class="flex-header-box">
+                <img src="img/logo-11.svg" alt="Blog website logo" />
+
+                    <a href="#" class="nav-icon"><i class="fas fa-bars"></i></a>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Gallery</a></li>
                     </ul>
-                </div>
-                <div class="flex-header-box">
                     <button>Say Hi!</button>
-                </div>
-            </div>
-        </nav>
+
+            </nav>
+        </div>
         <section class="banner"> 
             <div class="banner-card">
                 <h1 class=>Welcome!</h1>
@@ -43,17 +41,35 @@
                         <p>When I started this blog I knew that it would encourage me to get out and explore my local area. Walks, cream teas, local attractions and even a bit of shopping. New things I could do with my family. I am surprised that I am always finding out about different places and that keeps me wanting to discover more...</p>
                         <p class="article-link">Read More &rightarrow;</p>
                     </div>
-                    <div class= "article-img">
+                    <figure class= "article-img">
                         <img class="thumbnail" src="img/blackdown.JPG" alt="a misty morning on the black down hills" />
-                        <figcaption>A misty morning on the blackdown hills</figcaption>
-                    </div>
+                        <figcaption>A sunny morning on the blackdown hills</figcaption>
+                    </figure>
                 </a>
                 <article class="article-card"></article>
                 <article class="article-card"></article>
             </div>
         </main>
-        <footer class="footer flex-dis"> 
-
+        <footer class="footer"> 
+            <div class="footer-subscribe">
+                    <input type="email" id="email" name="email" placeholder="Your E-Mail">
+                    <button>Subscribe!</button>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Design Info</a></li>
+                </ul>
+                <button class="footer-btn">Say Hi!</button>
+            </nav>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+                <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            </div>
         </footer>
     </div> 
 </body>
