@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <nav class="flex-header-box">
+        <header class="header">
+            <nav class="flex-header-box" aria-label="main-navigation">
                 <img src="img/logo-11.svg" alt="Blog website logo" />
 
                     <a href="#" class="nav-icon"><i class="fas fa-bars"></i></a>
@@ -20,11 +20,11 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Gallery</a></li>
                     </ul>
-                    <button>Say Hi!</button>
+                    <button class="button">Say Hi!</button>
 
             </nav>
-        </div>
-        <section class="banner"> 
+        </header>
+        <section class="banner" aria-label="website-banner"> 
             <div class="banner-card">
                 <h1 class=>Welcome!</h1>
                 <p>Join me and start exploring the beautiful outdoors of Devon.</p>
@@ -46,16 +46,46 @@
                         <figcaption>A sunny morning on the blackdown hills</figcaption>
                     </figure>
                 </a>
-                <article class="article-card"></article>
-                <article class="article-card"></article>
+                <a class="article-card" href="#">
+                    <div class="article-title">
+                        <h2>Exploring Cannington Viaduct</h2>
+                        <p class="post-details">10/06/2020 by James W</p>
+                    </div>
+                    <div class="article-body">
+                        <p>If you enjoy walking then East Devon and West Dorset offer plenty of opportunities from the fabulous Jurassic Coast to stunning countryside rambles.</br></br></p>
+
+                            <p>On a lovely autumn afternoon,  a small group of walkers gathered in Uplyme Village Hall car park to explore an area I’ve been meaning to walk for two years.  I was prepared with my Ordnance Survey map and rather rusty map reading skills, to lead the group round Cannington Viaduct.</p>
+                        <p class="article-link">Read More &rightarrow;</p>
+                    </div>
+                    <figure class= "article-img">
+                        <img class="thumbnail" src="img/viaduct.jpg" alt="a distant view of the viaduct" />
+                        <figcaption>A distant view of the viaduct</figcaption>
+                    </figure>
+                </a>
+                <a class="article-card" href="#">
+                    <div class="article-title">
+                        <h2>Blackbury Camps' Bluebells</h2>
+                        <p class="post-details">12/04/2020 by James W</p>
+                    </div>
+                    <div class="article-body">
+                        <p>Every year social media feeds are full of gorgeous bluebell pictures, for some reason they seem to have popped up in a lot more places in the last few years. Are they the dreaded Spanish invaders marching over our precious countryside? I don’t think so, but not being greatly horticultural I’m afraid I haven’t studied the difference, to me they all look beautiful.</p>
+                        <p class="article-link">Read More &rightarrow;</p>
+                    </div>
+                    <figure class= "article-img">
+                        <img class="thumbnail" src="img/bluebells.jpg" alt="a winding trail of bluebells" />
+                        <figcaption>A winding trail at Blackbury Camp</figcaption>
+                    </figure>
+                </a>
             </div>
         </main>
         <footer class="footer"> 
-            <div class="footer-subscribe">
-                    <input type="email" id="email" name="email" placeholder="Your E-Mail">
-                    <button>Subscribe!</button>
-            </div>
-            <nav class="footer-nav">
+            <form action="" method="get" class="footer-subscribe">
+                <input type="text" name="name" placeholder="Your Name" aria-label="your-name" required>
+                <input type="email" name="email" placeholder="Your E-Mail" aria-label="email-address" required>
+                <input type="submit" value="Subscribe!" class="button">
+                <!-- <button>Subscribe!</button> -->
+            </form>
+            <nav class="footer-nav" aria-label="footer-navigation">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Blog</a></li>
@@ -66,9 +96,9 @@
                 <button class="footer-btn">Say Hi!</button>
             </nav>
             <div class="footer-social">
-                <a href="#"><i class="fab fa-facebook social-icon"></i></a>
-                <a href="#"><i class="fab fa-instagram social-icon"></i></a>
-                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                <a href="#" aria-label="find-us-on-facebook"><i class="fab fa-facebook social-icon" aria-hidden="true" ></i></a>
+                <a href="#" aria-label="find-us-on-instagram"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+                <a href="#" aria-label="find-us-on-twitter"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
             </div>
         </footer>
     </div> 
