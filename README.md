@@ -12,3 +12,5 @@ Green leaves banner background by Muhammad Khairul Iddin Adnan from Pexels - htt
 Social media icons by Font Awesome https://fontawesome.com/
 
 Blog post banner from Alison Day via Flickr under creative commons https://www.flickr.com/photos/levettday/28091633205
+
+Dog walking picture from pexels http://www.pexels.com
