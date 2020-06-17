@@ -128,9 +128,7 @@
     height: unset;
     width: 100%;
   }
-  .gmap {
-    height: 15em;
-  }
+
   /* Hide subscribe box as it isn't needed (subscribe would be right below in footer) */
   .aside-box:nth-last-child(1) {
     display: none;
