@@ -7,6 +7,10 @@
   width: 33%;
   height: 100%;
 }
+.footer-input {
+  padding: 0.5%;
+  margin-bottom: 0.5%;
+}
 /* Navigation box */
 .footer-nav {
   display: flex;
@@ -26,9 +30,6 @@
 }
 .footer nav a:active {
   color: #44633f;
-}
-.footer-btn {
-  display: none;
 }
 /* Social media box */
 .footer-social {
