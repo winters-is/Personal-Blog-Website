@@ -18,7 +18,6 @@ body {
   font-size: 16px;
   color: #3e363f;
 }
-
 a {
   text-decoration: none;
   color: #3e363f;
@@ -114,7 +113,6 @@ q {
   display: flex;
   padding: 0.8%;
 }
-
 /* Page layout - Blog Posts (grid) */
 .flex-main-blog {
   grid-area: 2 / 1 / 4 / 4;
